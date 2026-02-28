@@ -1,0 +1,144 @@
+.app-shell {
+  min-height: 100vh;
+  background: linear-gradient(180deg, #eef5ff 0%, #f7fbff 100%);
+  color: #1f2d3d;
+}
+
+.app-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 16px 24px;
+  background: #1d3557;
+  color: #f1f6ff;
+  border-bottom: 3px solid #457b9d;
+}
+
+.app-header h1 {
+  margin: 0;
+  color: #f8fbff;
+}
+
+.app-header p {
+  margin: 4px 0 0;
+  color: #dbe9ff;
+}
+
+.app-logo {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+  border-radius: 10px;
+  background: #ffffff;
+  padding: 6px;
+}
+
+.app-nav {
+  background: #2c5282;
+  padding: 10px 24px;
+  border-bottom: 2px solid #457b9d;
+}
+
+.app-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.app-nav a {
+  display: inline-block;
+  padding: 8px 14px;
+  border-radius: 8px;
+  color: #e9f4ff;
+  text-decoration: none;
+  background: #355d8c;
+  font-weight: 600;
+}
+
+.app-nav a:hover,
+.app-nav a.active {
+  background: #73a7d6;
+  color: #12263a;
+}
+
+.app-main {
+  padding: 24px;
+}
+
+.home-card,
+.data-section {
+  background: #ffffff;
+  border: 1px solid #d4e3f5;
+  border-radius: 12px;
+  padding: 18px;
+  box-shadow: 0 6px 16px rgba(29, 53, 87, 0.08);
+}
+
+h2 {
+  color: #1d3557;
+  margin-top: 0;
+}
+
+a {
+  color: #1f6feb;
+}
+
+a:hover {
+  color: #0f4ea8;
+}
+
+.action-button {
+  background: #2b6cb0;
+  color: #ffffff;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.action-button:hover {
+  background: #1f4f80;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  overflow: hidden;
+  border-radius: 10px;
+  border: 1px solid #c9d9ec;
+}
+
+.data-table th,
+.data-table td {
+  border-bottom: 1px solid #e4eef9;
+  padding: 10px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.data-table th {
+  background: #dbe9f8;
+  color: #1d3557;
+}
+
+.data-table tr:nth-child(even) {
+  background: #f8fbff;
+}
+
+.loading {
+  color: #2b6cb0;
+  font-weight: 600;
+}
+
+.error-message {
+  color: #b00020;
+  background: #ffe8ec;
+  border: 1px solid #ffccd6;
+  border-radius: 8px;
+  padding: 10px;
+}
